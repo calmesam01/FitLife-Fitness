@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <form class="form-group" id="form-main" style="margin-left: 20%; margin-right: 20%; margin-top: 5%;">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" rows="5" id="name">
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" rows="5" id="email">
+        </div>
+        <div class="form-group">
+            <label for="comment">Address:</label>
+            <textarea class="form-control" rows="5" id="comment"></textarea>
+        </div>
+        <div class="dropdown">
+            <button class="btn btn-success dropdown-toggle" type="button" data-toggle="dropdown">Type of membership
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li><a href="#">Montly (pay as you go)</a></li>
+              <li><a href="#">3-months</a></li>
+              <li><a href="#">6-months</a></li>
+              <li><a href="#">12-months</a></li>
+            </ul>
+        </div><br>
+        <label for="email">Method of payment: </label>
+        <label class="radio-inline">
+            <input type="radio" name="optradio" checked>Debit Card
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="optradio">Credit Card
+        </label><br><br>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">I wish to recieve promotional offers via emails</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</body>
+</html>
