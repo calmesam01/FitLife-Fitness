@@ -3,10 +3,26 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
+  <header>
+    <div class="container">
+      <img src = "images/logo.png" alt="logo" class="logo">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="classes.html">Classes</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="member.html">Memberships</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
     <form action="submitted.html" class="form-group" id="form-main" style="margin-left: 20%; margin-right: 20%; margin-top: 5%;">
         <div class="form-group">
             <label for="name">Name:</label>
@@ -21,14 +37,14 @@
             <textarea class="form-control" rows="5" id="comment" required></textarea>
         </div>
         <div class="dropdown">
-            
+
                 <select required>
                     <option value="">Type of Membership</option>
                     <option value="Montly">Montly (pay as you go)</option>
                     <option value="3-Months">3-Months</option>
                     <option value="6-Months">6-Months</option>
                     <option value="12-Months">12-Months</option>
-                </select>  
+                </select>
         </div><br>
         <label for="email">Method of payment: </label>
         <label class="radio-inline">
