@@ -21,7 +21,7 @@
       background: #55d6aa;
     }
 
-    header::after {
+    header:after {
       content: '';
       display: table;
       clear: both;
@@ -49,8 +49,6 @@
       display: inline-block;
       margin-left: 70px;
       padding-top: 20px;
-
-      position: relative;
     }
 
     nav a {
@@ -132,7 +130,14 @@
       align-items: center;
       font-size: 4.5em;
       color: #fafafa;
-      opacity: 0.7;
+      opacity: 0.85;
+    }
+
+    p.para a{
+      color: white;
+      text-decoration: none;
+
+
     }
 
     #cardio{
@@ -159,7 +164,6 @@
       background-repeat: no-repeat;
     }
 
-
   </style>
 </head>
 
@@ -169,11 +173,11 @@
       <img src = "images/logo.png" alt="logo" class="logo">
         <nav>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Classes</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Memberships</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="classes.html">Classes</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="member.html">Memberships</a></li>
           </ul>
         </nav>
       </div>
@@ -185,7 +189,7 @@
         <h3>It&#39;s never too late to feel great</h3>
       </section>
       <section class="section">
-        <h3> Available at the Center </h3>
+        <h3> Available at our Center </h3>
         <div class="row">
           <div class="column" id="cardio" style="background-color:#aaa;">
             <p class="para"><a href="cardio.html"> Cardio </a></p>
