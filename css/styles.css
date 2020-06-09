@@ -23,12 +23,23 @@ header:after {
 }
 
 /* styling the logo in the header */
-.logo {
+div.container .logo {
   margin: 0;
   padding: 0;
   float: left;
   padding: 10px;
   width: 170px; /* Width of logo */
+}
+
+div.text {
+  margin-left: 350px;
+  margin-right: 350px;
+  padding: 20px;
+  background-color: white;
+  color: black;
+  opacity: 0.75;
+  font-family: serif;
+  text-align: justify;
 }
 
 a img {
