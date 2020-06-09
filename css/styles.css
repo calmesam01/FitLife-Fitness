@@ -32,34 +32,36 @@ header:after {
 }
 
 a img {
-  width:100px;height:120px;margin:10px;float:right;
+  width:100px;
+  height:120px;
+  margin:10px;
+  float:right;
 }
 
-.nav {
+div.nav {
   float: right;
 }
 
-
-.nav ul {
+div.nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.nav li {
+div.nav li {
   display: inline-block;
   margin-left: 70px;
   padding-top: 20px;
   text-transform: uppercase;
 }
 
-.nav a {
+.nav-tabs {
   color: #3c403d;
   text-decoration: none;
   font-size: 14px;
 }
 
-.nav a:hover {
+.nav-tabs:hover {
   color: black;
 }
 
@@ -73,8 +75,6 @@ a img {
   font-family: sans-serif;
   color: white;
   text-align: center;
-  /* margin-left: 30px;
-  margin-right: 30px; */
 }
 
 section{
