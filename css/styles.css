@@ -1,25 +1,28 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  font-weight: 1000;
   background-image: url('../images/backimg.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed; /*background image is fixed and doesn't scroll*/
   background-position: center;
   color: white;
+  font-weight: 1000; /* thickness of the font */
 }
 
 header {
   background: #55d6aa;
 }
 
+/* clearfix to clear it's child elements- clears floats */
+/* :after selector inserts something after the content of selected element */
 header:after {
   content: '';
   display: table;
   clear: both;
 }
 
+/* styling the logo in the header */
 .logo {
   margin: 0;
   padding: 0;
@@ -28,8 +31,7 @@ header:after {
   width: 170px; /* Width of logo */
 }
 
-
-
+/* styling for set of navigation links */
 nav {
   float: right;
 }
@@ -44,12 +46,12 @@ nav li {
   display: inline-block;
   margin-left: 70px;
   padding-top: 20px;
+  text-transform: uppercase;
 }
 
 nav a {
   color: #3c403d;
   text-decoration: none;
-  text-transform: uppercase;
   font-size: 14px;
 }
 
@@ -74,7 +76,7 @@ nav a:hover {
 section{
   display: inline-block;
   width: 100%;
-  height: 100vh;
+  height: 100vh; /* equal to 100% of the viewport height */
 }
 section h1{
   /* padding-top: 20px; */
