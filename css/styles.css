@@ -31,7 +31,14 @@ header:after {
   width: 170px; /* Width of logo */
 }
 
+<<<<<<< HEAD
 /* styling for set of navigation links */
+=======
+a img {
+  width:100px;height:120px;margin:10px;float:right;
+}
+
+>>>>>>> 053361e01f369458d7739e542abc33a554a4ce58
 nav {
   float: right;
 }
