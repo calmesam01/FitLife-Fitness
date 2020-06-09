@@ -10,10 +10,6 @@ body {
   color: white;
 }
 
-
-
-
-
 header {
   background: #55d6aa;
 }
@@ -112,6 +108,11 @@ section h3{
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size:cover; /* Resize the background image to cover the entire container */
   /* opacity: 0.8; */
+}
+
+.content .section:nth-child(2){
+  background-color: black;
+
 }
 
 /* Create three equal columns that floats next to each other */
